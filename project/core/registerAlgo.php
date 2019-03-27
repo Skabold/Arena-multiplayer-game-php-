@@ -78,14 +78,16 @@ if(isset($_POST['register']))
                     
                     $erreur = "Votre compte à bien été crée";
                     echo $erreur;
-                    echo "<a href='Index.php'>Return</a>";
+                    echo " <a href='Index.php'>Return</a>";
+                    //redirection
+                    header("Location: MainMenu.php?id=".$_SESSION['id']);
                     
                 }
                 else
                 {
                     $erreur = "Les mots de passes ne correspondent pas !";
                     echo $erreur;
-                   echo "<a href='Index.php'>Return</a>";
+                    echo " <a href='Index.php'>Return</a>";
 
                 }
                 
@@ -95,7 +97,7 @@ if(isset($_POST['register']))
             {
                 $erreur = "Username déjà utilisé ou family name déjà utilisé";
                 echo $erreur;
-                echo "<a href='Index.php'>Return</a>";
+                echo " <a href='Index.php'>Return</a>";
 
             }
                 
@@ -105,7 +107,7 @@ if(isset($_POST['register']))
         {
         $erreur = "Votre pseudo ne peut pas dépasser les 18 caractères !";
         echo $erreur;
-        echo "<a href='Index.php'>Return</a>";
+        echo " <a href='Index.php'>Return</a>";
 
         }
     

@@ -1,6 +1,3 @@
-<!DOCTYPE html>
-<html>
-
 <?php
 
 include '../include/header.php' ; 
@@ -34,4 +31,4 @@ include '../include/header.php' ;
 	</div>
 
 </body>
-</html> 
+<?php include '../include/footer.php';?>

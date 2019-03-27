@@ -1,12 +1,5 @@
 <?php 
 include '../include/bddconnect.php' ;
-
-?>
-<!DOCTYPE html>
-<html>
-
-<?php
-
 include '../include/header.php' ; 
 
 ?>
@@ -65,7 +58,7 @@ if(isset($_POST['login']))
                 $_SESSION['weaponId'] = $userher['weaponId'];
                 $_SESSION['gid'] = $userher['FK_guildeId'];
               
-                echo"<a href='MainMenu.php?id=".$_SESSION['id']."'> Let's go to the menu :D </a>";
+                header("Location: MainMenu.php?id=".$_SESSION['id']);
                 
                 }
             
