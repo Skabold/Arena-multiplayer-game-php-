@@ -18,7 +18,7 @@ if(isset($_GET['id']) AND $_GET['id'] > 0)
 					<ul>
 						<li><?php echo"<a href='combat.php?id=".$_SESSION['id']."'> combat </a>" ;?></li>
 						<li><?php echo"<a href='monPersonnage.php?id=".$_SESSION['id']."'> mon personnage </a>" ;?></li>
-						<li><?php echo"<a href='boutique.php?id=".$_SESSION['id']."'> Boutique </a>" ;?></li>
+						<li><?php echo"<a href='boutique.php?id=".$_SESSION['id']."'> boutique </a>" ;?></li>
 						<li><?php echo"<a href='chat.php?id=".$_SESSION['id']."'> chat </a>" ;?></li>
 						<li><?php echo"<a href='guilde.php?id=".$_SESSION['id']."'>guilde </a>" ;?></li>
 						<li><?php echo"<a href='truc.php?id=".$_SESSION['id']."'> nom lien </a>" ;?></li>
