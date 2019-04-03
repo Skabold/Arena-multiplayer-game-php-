@@ -29,7 +29,7 @@ if(isset($_GET['id']) AND $_GET['id'] > 0)
 						<li><?php echo " Prix :".$nextShieldPrice." | + 30 defence" ;?></li>
 						<li><?php echo"<a href='buyShield.php?id=".$_SESSION['id']."'> acheter un nouveau bouclier </a>" ;?></li>
 
-						<li><?php echo " Prix :".$nextTalismanPrice." | + 5 de tout" ;?></li>
+						<li><?php echo " Prix :".$nextTalismanPrice." | + 5 de tout | ACHAT AVEC DIAMANT !" ;?></li>
 						<li><?php echo"<a href='buyTalisman.php?id=".$_SESSION['id']."'> acheter un nouveau talisman </a>" ;?></li>
 					</ul>
 				</nav>

@@ -11,12 +11,12 @@ if(isset($_GET['id']) AND $_GET['id'] > 0)
 		include '../include/powerVar.php';
 			
 		//buyHere
-		if ($_SESSION['gold'] >= $nextTalismanPrice)
+		if ($_SESSION['diamond'] >= $nextTalismanPrice)
 		{
-			$_SESSION['gold'] = $_SESSION['gold'] - $nextTalismanPrice;
-			//update gold :
-			$upd = $bdd->prepare("UPDATE rss SET gold = ? WHERE FK_userId = ?");
-			$upd->execute(array($_SESSION['gold'],$_SESSION['id']));
+			$_SESSION['diamond'] = $_SESSION['diamond'] - $nextTalismanPrice;
+			//update diamond :
+			$upd = $bdd->prepare("UPDATE rss SET diamond = ? WHERE FK_userId = ?");
+			$upd->execute(array($_SESSION['diamond'],$_SESSION['id']));
 
 			//update talisman Level :
 			$upd2 = $bdd->prepare("UPDATE hero SET talismanId = ? WHERE FK_userId = ?");
