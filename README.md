@@ -1,10 +1,7 @@
 # FatalWeaponOfTheDeathThatKill
 #FR
-Bonjour, projet à faire en 1 mois pour l'école en bînome. <br>
-@Maxime pour le css <br>
-@Pierre pour le html / php <br>
-@Everyone  pour le gameplay (incroyable) <br>
-
-Bonne journée ! 
+Bonjour, projet fait en 24H pour l'école <br>
+@Maxime Bourget pour le css <br>
+@Pierre Linz pour le html / php <br>
 
 <hr>
